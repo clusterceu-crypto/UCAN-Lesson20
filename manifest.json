@@ -1,0 +1,405 @@
+{
+  "artifact": "UCAN_Lesson_20_HTML_v1.0.9_Final_Owner_UX_Corrections_PreRelease.zip",
+  "lesson": "UCAN-L20",
+  "version": "1.0.9_Final_Owner_UX_Corrections_PreRelease",
+  "date": "2026-10-28",
+  "status": "EXECUTION_CANDIDATE_PENDING_INDEPENDENT_MAIN_CONSULTANT_VALIDATION",
+  "entry_point": "index.html",
+  "language": "uk",
+  "portable_relative_paths": true,
+  "accepted_drive_sources": {
+    "KS-006": "1BwZpfP8Yw38UrB38WMc8_1DDNrObL01U",
+    "BP-015-v1.1": "1gzHRig1V006CQU6DBufPUsMffBASD9tcdR--4ofotj8",
+    "Evidence-Handoff": "1xRO6YLQG2_teU3jwpuCLfBHwiIqcec7l1g0nWWG1k2c",
+    "Learning-Design": "1wtuAERSpYDY2AziN0oxESjrz3IHJ5V6FEBat94_y7d0",
+    "Editorial-v1.1": "1LFl17IoQqyA4aAH6qirQkzhq2cqilMGkKnJg_Y4jsJs",
+    "Assessment-v1.2": "1eS6OUo4o4UaaiNRgL3wsWRLCIt7Fm2c1AsGCH510WoA",
+    "Methodical-QA": "18XSqPao4lhPkDIRm9nUOdeChQXJ84MCdHQtMgYAbzRo",
+    "Designer-v1.1": "1kYclpxZ6u1AW2YwA1NIIURAbR5qRBF0TEpOIbdxr1CU",
+    "HTML-LMS-Standard-v1.2": "146X3fjfYNMHI32K74Q4xplSnoNlktVhe",
+    "Editorial-v1.2": "14K8SJq97wjVrDPFwatMBOmC_zuB6J5gtwfDOtyUR_1E",
+    "Designer-v1.2": "1bbX6f7BrJQWYpI_esxg4WOkvVKDyl05yAiWQ5rLv-O8"
+  },
+  "source_boundaries": {
+    "Editorial_v1.1_learner_paragraph_indices": "0–92",
+    "Editorial_separator_excluded": 93,
+    "Editorial_internal_annex_excluded_from": 94,
+    "Assessment_v1.2_pre_submission": "Section 3; Q20-01 through Q20-05",
+    "Assessment_post_submission_feedback": "Section 5; after deliberate submit",
+    "Editorial_v1.2_learner_paragraph_indices": "0-92"
+  },
+  "curriculum_contract": {
+    "instructional_sections": 9,
+    "introduction": 1,
+    "MCNA_additions": 4,
+    "HTML_first_governance_model": 1,
+    "unscored_formative_scenarios": 2,
+    "canonical_freeform_practical_note": 1,
+    "original_source_readings": 3,
+    "source_external_urls": 4,
+    "final_assessment_questions": 5,
+    "options_per_question": 4,
+    "passing_rule": "5/5 with unlimited retries",
+    "note_automatically_graded": false
+  },
+  "inventory_files": [
+    "index.html",
+    "css/style.css",
+    "js/lesson.js",
+    "manifest.json"
+  ],
+  "controlled_file_checksums_excluding_manifest": [
+    {
+      "path": "index.html",
+      "size_bytes": 78143,
+      "sha256": "4a7ea2e20090d6598123cc2bddd951b40314e9dddf8cadf46580958acf4cd7f5"
+    },
+    {
+      "path": "css/style.css",
+      "size_bytes": 17712,
+      "sha256": "3c0fc0bfabd625d424380cdf20cb45990435e9250eb79148ae4f5068515e2adb"
+    },
+    {
+      "path": "js/lesson.js",
+      "size_bytes": 345776,
+      "sha256": "d9747c29d6aa0fc0bd16e0447df83344ad8fb5513486c178ed9df34d343a2d6c"
+    }
+  ],
+  "internal_qa": {
+    "scope": "v1.0.3 bounded correction Gate; all Chromium observations below use isolated DOM with localStorage shim, NOT real browser-origin testing",
+    "archive_identity": "PASS — original v1.0.2 fetched from controlled Drive and SHA/size verified",
+    "editorial_learner_text": "PASS — actual DOM source-aware extraction 93/93 matched accepted Editorial v1.2",
+    "optional_guidance": "PASS_INLINE — one native disclosure; 8 original optional questions grouped 3/3/2, UI labels accessible; source index 82 exact after stripping only data-ui-only labels",
+    "resource_urls": "PASS — all 4 source URLs unchanged in visible text and hrefs; keyboard focus visible in inline Chromium",
+    "mobile_page_overflow": {
+      "320": {
+        "resources": {
+          "scrollWidth": 320,
+          "clientWidth": 320
+        },
+        "max_overflow_pixels": 0
+      },
+      "375": {
+        "resources": {
+          "scrollWidth": 375,
+          "clientWidth": 375
+        },
+        "max_overflow_pixels": 0
+      },
+      "390": {
+        "resources": {
+          "scrollWidth": 390,
+          "clientWidth": 390
+        },
+        "max_overflow_pixels": 0
+      },
+      "768": {
+        "resources": {
+          "scrollWidth": 768,
+          "clientWidth": 768
+        },
+        "max_overflow_pixels": 0
+      },
+      "1440": {
+        "resources": {
+          "scrollWidth": 1440,
+          "clientWidth": 1440
+        },
+        "max_overflow_pixels": 0
+      }
+    },
+    "navigation_and_storage": "PASS_INLINE — 12 semantic states, migration unchanged JS, note retention / retry / reset-cancel smoke tests; true localStorage reload NOT TESTED",
+    "frozen_quiz": "PASS_INLINE — five questions and 20 radio options; 5/5 completes; JS identical to v1.0.2 (hash verified)",
+    "pdf_unicode": "PASS_INLINE — 3-page downloaded PDF with searchable/extractable Ukrainian text; 4680/4680 non-whitespace practical note chars after removing repeated PDF title/footer; no images; NOT PDF/UA",
+    "javascript_errors": [],
+    "real_file_origin": "BLOCKED:Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///mnt/data/l20_v103_work/index.html",
+    "real_http_origin": "BLOCKED_OR_UNAVAILABLE:Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:8376/index.html",
+    "assistive_technology": "NOT TESTED — live screen-reader/full keyboard itinerary pending independent QA",
+    "browser_print_preview": "NOT TESTED",
+    "SVS_publication_links": "OPEN",
+    "owner_security_permissions": "OPEN — anyone:writer must be handled by owner",
+    "owner_browser_review": "NOT AUTHORIZED"
+  },
+  "deferred": [
+    "Configuration sync: claimed 26 Oct Main Consultant targeted-correction acceptance not yet recorded in controlled State/Journal at executor read time",
+    "IQ20-02 owner-managed anyone:writer remediation — OPEN",
+    "IQ20-03 genuine browser-origin and actual localStorage reload — OPEN",
+    "IQ20-04 full screen reader, real browser print preview and physical print — OPEN; targeted isolated corrections require independent QA",
+    "IQ20-06 original publisher source links CLOSED for current accepted claims; URLs unchanged",
+    "Owner Browser Acceptance — PENDING",
+    "No PDF/UA certification",
+    "L21 target URL liveness explicitly excluded by owner"
+  ],
+  "privacy": "No analytics or network data transfer; learner note stored in browser localStorage when browser permits, or kept only in session with explicit warning. No external AI or video. Only user-triggered external resource links.",
+  "predecessor": {
+    "drive_id": "1HbVlG-81X5UnJq5jtKiO3XNBwpv0U2jA",
+    "filename": "UCAN_Lesson_20_HTML_v1.0.8_Source_Link_Presentation_Cleaned_PreRelease.zip",
+    "size_bytes": 206469,
+    "sha256": "d13d5ed3872e3fb21c18259ac0ea53ceaba170508e7ad88ab96caf86c0040ae5"
+  },
+  "pdf_correction": {
+    "finding": "IQ20-01 raster-only Portfolio PDF",
+    "scope": "js/lesson.js PDF handler and directly necessary local font embedding; manifest.json config/QA update",
+    "implementation": "offline Type0 CIDFontType2 Unicode searchable PDF; ToUnicode CMap, locally embedded and renamed DejaVu licensed font subset; no rasterized text pages",
+    "font_license": "DejaVu (Bitstream Vera/Arev license), full copyright and license attribution embedded in js/lesson.js. No standalone font files.",
+    "verified": "text/select/search and Unicode extraction tested with PyMuPDF and pypdf; short, multi-paragraph, 4-page and 11-page Ukrainian notes; 4-page source text 7476 non-whitespace characters all retained; no clipping; zero PDF image objects",
+    "accessibility_limitation": "not PDF/UA; untagged PDF; screen reader behavior NOT TESTED",
+    "unsupported_glyph_policy": "fails with descriptive U+ codepoint error, rather than silently removing unknown Unicode glyphs",
+    "browser_print": "unchanged secondary option; real print preview NOT TESTED",
+    "data_privacy": "browser-local PDF, embedded assets only, no external PDF service or note network transmission"
+  },
+  "v1.0.2_change_control": {
+    "controlled_predecessor_drive_id": "1FtWNrkDPopJFN45lYgQGdiOqGY50e_3e",
+    "predecessor_sha256": "33df594efc069bc301a4ac2ce3d6f087c3e7218c937d2bece01a1cd24dd31b54",
+    "editorial_source_complete": true,
+    "source_entries": 93,
+    "resource_section": 7,
+    "note_section": 8,
+    "optional_question_count": 8,
+    "progress_migration": "legacy numeric indices map through original stable semantic IDs to new indices",
+    "note_storage": "original portfolio key preserved",
+    "pdf_generator": "original v1.0.1 byte-preserved JS block",
+    "remaining_QA": [
+      "real browser startup",
+      "actual localStorage reload",
+      "keyboard/AT/screen-reader",
+      "print/PDF-UA",
+      "SVS link verification",
+      "Drive permissions owner review",
+      "Owner Browser Review"
+    ]
+  },
+  "change_control": {
+    "authorized_main_consultant_2026_10_22": "QA v1.0 accepted as evidence; targeted remediation only",
+    "predecessor_drive_id": "1GtFeLQFx_nm5Y3oyiOblyIPMJn2cyA6x",
+    "predecessor_sha256": "20ceae18fc54c85a06149f0f18ad0ab8f563fc60bc8b6fe35a03926f1a49f9c7",
+    "F20-LX-01": "Targeted resource paragraph overflow wrapping via CSS",
+    "F20-LX-05": "One native expandable optional helper; grouped 3/3/2 questions through UI-only labels; source index 82 unchanged after excluding data-ui-only",
+    "js_unchanged": true,
+    "editorial_93_of_93": "PASS",
+    "browser_origin": "NOT YET VERIFIED; test separately"
+  },
+  "v1.0.4_ui_control": {
+    "authorised_main_consultant_reference": "UCAN-L20-UI-PARITY-ASSESSMENT-ACCEPTED-20261023",
+    "accepted_design_assessment_drive_id": "1MP0XqQICZBZbbz1rziDDSSZNo2E0rp5STqOSM0Teql8",
+    "sole_html_predecessor_drive_id": "11tCcdCh3PmTZdEZbwavERWrYlEhZU4HM",
+    "sole_html_predecessor_size_bytes": 196092,
+    "sole_html_predecessor_sha256": "c4410b31f866eca2248f63c1115955c0c16c6f5ffde4777da15c3da3c7f3cd5b",
+    "UI20_01": "Compact sticky header with mobile-visible section label and one route strip",
+    "UI20_02": "Viewing-position x/12 and rounded percent, semantic role=progressbar; no mastery claims",
+    "UI20_03": "12 native button route chips for existing semantic states, session visited vs current, completion locked until 5/5; no storage key/schema change",
+    "UI20_04": {
+      "label": "Перейти до заняття 21 →",
+      "href": "https://clusterceu-crypto.github.io/UCAN-Lesson21/",
+      "visible_only_after_l20_completion": true,
+      "liveness_verification": "WAIVED_BY_OWNER"
+    },
+    "UI20_05": "No additional emoji introduced",
+    "UI20_06": "Existing HTML-first governance model unchanged, no image assets",
+    "UI20_07": "Original assessment DATA and keys unchanged; minimal UI route/progress integration plus Boolean strict restore and explicit revocation of stale saved completion on failed retry/submission",
+    "editorial_dom_fragment_comparison": "PASS 93/93 identical source-marked elements (v1.0.3 prior verified vs accepted Editorial)",
+    "protected_links": "Original four source URLs and hrefs byte-unchanged, one owner-authorized L21 outbound link added",
+    "qa": "ISOLATED CHROMIUM PASS 320,390,768,1440; 12 chips, 8%/92%/100%, frozen 5/5, note reset/retry, migration old 7/8, PDF five-page long Ukrainian",
+    "qa_limitation": "file:// navigation blocked ERR_BLOCKED_BY_ADMINISTRATOR; no real origin reload/AT/actual print evidence",
+    "source_edits": false,
+    "image_asset_additions": 0,
+    "zip_files": 4,
+    "owner_release_dependencies": [
+      "IQ20-02 anyone:writer owner action",
+      "IQ20-03 real browser origin and reload",
+      "IQ20-04 full AT and print QA",
+      "IQ20-06 publication link verification",
+      "Owner Browser Acceptance"
+    ]
+  },
+  "provenance_prior_predecessor_record": {
+    "drive_id": "11Dj5xi3Jzs7pYPVp7t90o70xyl75CWhH",
+    "filename": "UCAN_Lesson_20_HTML_v1.0_PreRelease.zip",
+    "size_bytes": 34573,
+    "sha256": "d7ab6aaa8a58e8225b9c00cd131bfdc37c4b773f5eba14111325ece4f50b5c26",
+    "preserved_read_only": true
+  },
+  "v1.0.5_correction_control": {
+    "date": "2026-10-26",
+    "approval_claim_from_user_prompt": "IQ20-04 QA EVIDENCE ACCEPTED / TARGETED CORRECTION AUTHORIZED / RELEASE NOT ACCEPTED",
+    "configuration_sync": "NOT VERIFIED — no corresponding newest Main Consultant decision was found in Current State/Journal at controlled read time; do not claim sync PASS",
+    "sole_predecessor_drive_id": "1yqYxogBKznq_5RVBXnEEQH4RUufGtUg2",
+    "F20-A11Y-01": {
+      "scope": [
+        "index.html: #print-note-copy after textarea#portfolio",
+        "css/style.css: scoped print note visibility and normal flowing, wrapping text",
+        "js/lesson.js: prepareNotePrint, cleanupNotePrint, print and lifecycle handlers"
+      ],
+      "fix": "one print-only textContent DOM, original textarea stays sole editor/storage source; normal print pagination; afterprint clears temporary text"
+    },
+    "F20-A11Y-02": {
+      "scope": [
+        "js/lesson.js: revealFocusedRoute and routeButtons focus handler"
+      ],
+      "fix": "ensure keyboard-focused chip fully within existing horizontal strip by instant strip-only scrolling, without changing route page"
+    },
+    "F20-A11Y-03": "OBSERVATION ONLY; no redesign or new content. Native zoom not certified",
+    "F20-A11Y-04": "OBSERVATION ONLY; unchanged heading focus behavior",
+    "no_new_images": true,
+    "no_new_storage_keys": true,
+    "html_content_fidelity": "93/93 same source-indexed DOM fragments vs exact v1.0.4",
+    "test_environment": "ISOLATED CHROMIUM 144 about:blank with genuine unchanged lesson code and Map localStorage shim, NOT real origin",
+    "browser_print": "120/120 distinct Ukrainian lines, each once, 4 A4 pages; text searchable; assessment and navigation excluded",
+    "original_download_pdf": "120/120 distinct Ukrainian lines, each once, 7 PDF pages; original PDF generator code byte-identical",
+    "route_focus": "focused route chip 9 fully visible after keyboard Tab from chip 8 at 320,390,768,1440; no document x/y jump",
+    "responsive": "11 reachable pages checked at 320,390,768,1440: no document overflow",
+    "quiz": "failed B-B-B-B-B=1/5 locked; correct retry C-A-D-B-A=5/5 unlocked, L21 href exact",
+    "isolated_QA_not_release": true
+  },
+  "change_scope": "Owner-authorized presentation-only source labels at indices 33 and 49. All other 91 source-indexed fragments and CSS/JS are byte-identical to v1.0.7. Original seven publisher anchors preserved.",
+  "source_derived_reflection": {
+    "Editorial-v1.2": "87-92, management-note prompts 79-86",
+    "KS-006": "Lesson 21 official title + financial instruments, scaling and climate risk governance",
+    "L18/L19": "completion narrative structure only; no topic text or assets"
+  },
+  "v1.0.7_owner_ux_control": {
+    "authorization": "UCAN-L20-v1.0.6-REFLECTION-QA-ACCEPTED-v1.0.7-UX-AUTHORIZED-20261026",
+    "B": "existing semantic figure moved after heading; figure content unchanged",
+    "D": "indexed 75-77 display-only overrides; exact before/after mapping in execution report; seven href instances unchanged",
+    "E": "nonindexed accessible-decorative emoji only",
+    "F": "L19 local on-click prompt assembly, empty guard, clipboard/manual fallback, no automatic remote transmission",
+    "A": "v1.0.6 accepted completion DOM preserved",
+    "C": "OWNER VISUAL ASSET PENDING; no image added",
+    "G": "AI mentor URL deferred; none exposed",
+    "real_origin": "NOT TESTED; separate IQ20-03",
+    "full_at": "NOT TESTED; separate IQ20-04"
+  },
+  "source_index_display_override": {
+    "changed_indices": [
+      33,
+      49,
+      75,
+      76,
+      77
+    ],
+    "preserved_unchanged_indices": 88,
+    "mapping": [
+      {
+        "index": 75,
+        "before_html": "<p data-source-index=\"75\">📚 1) Ролі та залучення заінтересованих сторін. European Commission Joint Research Centre, «How to develop a Sustainable Energy and Climate Action Plan», Part 1 (2018). Прочитайте §5.1 (друк. с. 37–40), §5.2 (с. 41–43) і таблицю 3: порівняйте учасників, їхні можливі внески та способи залучення. Це методична опора для Вашого рішення. PDF: https://publications.jrc.ec.europa.eu/repository/bitstream/JRC112986/jrc112986_kj-na-29412-en-n.pdf <a href=\"https://publications.jrc.ec.europa.eu/repository/bitstream/JRC112986/jrc112986_kj-na-29412-en-n.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Відкрити джерело</a></p>",
+        "after_html": "<p data-source-index=\"75\">📚 1) Ролі та залучення заінтересованих сторін. European Commission Joint Research Centre, «How to develop a Sustainable Energy and Climate Action Plan», Part 1 (2018). Прочитайте §5.1 (с. 37–40), §5.2 (с. 41–43) і таблицю 3: порівняйте учасників, їхні можливі внески та способи залучення. Це методична опора для Вашого рішення. Джерело: <a href=\"https://publications.jrc.ec.europa.eu/repository/bitstream/JRC112986/jrc112986_kj-na-29412-en-n.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">JRC — SECAP Part 1 (2018), PDF: §5.1, §5.2, таблиця 3</a></p>",
+        "hrefs": [
+          "https://publications.jrc.ec.europa.eu/repository/bitstream/JRC112986/jrc112986_kj-na-29412-en-n.pdf"
+        ],
+        "basis": "approved display-only label/locator normalization; no source claims or hrefs changed"
+      },
+      {
+        "index": 76,
+        "before_html": "<p data-source-index=\"76\">📚 2) Співпраця з районними ініціативами. Interreg North-West Europe / Climate Active Neighbourhoods, «Practice Cube» (2023), Брест, друк. с. 9. Зверніть увагу, як змінилися завдання самої муніципальної команди при роботі з місцевими акторами. Опис є історичним. PDF: https://vb.nweurope.eu/media/19788/can_practicecube2023_final.pdf#page=9 <a href=\"https://vb.nweurope.eu/media/19788/can_practicecube2023_final.pdf#page=9\" rel=\"noopener noreferrer\" target=\"_blank\">Відкрити джерело</a></p>",
+        "after_html": "<p data-source-index=\"76\">📚 2) Співпраця з районними ініціативами. Interreg North-West Europe / Climate Active Neighbourhoods, «Practice Cube» (2023), Брест, с. 9 видання. Зверніть увагу, як змінилися завдання самої муніципальної команди при роботі з місцевими акторами. Опис є історичним. Джерело: <a href=\"https://vb.nweurope.eu/media/19788/can_practicecube2023_final.pdf#page=9\" rel=\"noopener noreferrer\" target=\"_blank\">Climate Active Neighbourhoods — Practice Cube (2023), PDF, с. 9</a></p>",
+        "hrefs": [
+          "https://vb.nweurope.eu/media/19788/can_practicecube2023_final.pdf#page=9"
+        ],
+        "basis": "approved display-only label/locator normalization; no source claims or hrefs changed"
+      },
+      {
+        "index": 77,
+        "before_html": "<p data-source-index=\"77\">📚 3) Партнерство українських муніципалітетів. SUN4Ukraine «Flagship Municipalities» та повідомлення Covenant of Mayors від 04.12.2024 про відбір 12 міст. Визначте, які організації виконують різні ролі у програмному форматі; не робіть висновків про результати окремих міст із факту відбору. https://www.sun4ukraine.eu/flagship ; https://eu-mayors.ec.europa.eu/en/news/twelve-ukrainian-cities-join-sun4ukraine-initiative-eu-climate-neutral-and-smart-cities <a href=\"https://www.sun4ukraine.eu/flagship\" rel=\"noopener noreferrer\" target=\"_blank\">Відкрити джерело</a> <a href=\"https://eu-mayors.ec.europa.eu/en/news/twelve-ukrainian-cities-join-sun4ukraine-initiative-eu-climate-neutral-and-smart-cities\" rel=\"noopener noreferrer\" target=\"_blank\">Відкрити джерело</a></p>",
+        "after_html": "<p data-source-index=\"77\">📚 3) Партнерство українських муніципалітетів. SUN4Ukraine «Flagship Municipalities» та повідомлення Covenant of Mayors від 04.12.2024 про відбір 12 міст. Визначте, які організації виконують різні ролі у програмному форматі; не робіть висновків про результати окремих міст із факту відбору. Джерела: <a href=\"https://www.sun4ukraine.eu/flagship\" rel=\"noopener noreferrer\" target=\"_blank\">SUN4Ukraine — Flagship Municipalities</a> · <a href=\"https://eu-mayors.ec.europa.eu/en/news/twelve-ukrainian-cities-join-sun4ukraine-initiative-eu-climate-neutral-and-smart-cities\" rel=\"noopener noreferrer\" target=\"_blank\">Covenant of Mayors — повідомлення від 04.12.2024</a></p>",
+        "hrefs": [
+          "https://www.sun4ukraine.eu/flagship",
+          "https://eu-mayors.ec.europa.eu/en/news/twelve-ukrainian-cities-join-sun4ukraine-initiative-eu-climate-neutral-and-smart-cities"
+        ],
+        "basis": "approved display-only label/locator normalization; no source claims or hrefs changed"
+      },
+      {
+        "index": 33,
+        "before_html": "<p class=\"source-line\" data-source-index=\"33\">Джерела: SUN4Ukraine — Flagship Municipalities: https://www.sun4ukraine.eu/flagship ; повідомлення Covenant of Mayors про відбір 12 міст (04.12.2024): https://eu-mayors.ec.europa.eu/en/news/twelve-ukrainian-cities-join-sun4ukraine-initiative-eu-climate-neutral-and-smart-cities . <a href=\"https://www.sun4ukraine.eu/flagship\" rel=\"noopener noreferrer\" target=\"_blank\">Відкрити джерело</a> <a href=\"https://eu-mayors.ec.europa.eu/en/news/twelve-ukrainian-cities-join-sun4ukraine-initiative-eu-climate-neutral-and-smart-cities\" rel=\"noopener noreferrer\" target=\"_blank\">Відкрити джерело</a></p>",
+        "after_html": "<p class=\"source-line\" data-source-index=\"33\">Джерела: <a href=\"https://www.sun4ukraine.eu/flagship\" rel=\"noopener noreferrer\" target=\"_blank\">SUN4Ukraine — Flagship Municipalities</a>; <a href=\"https://eu-mayors.ec.europa.eu/en/news/twelve-ukrainian-cities-join-sun4ukraine-initiative-eu-climate-neutral-and-smart-cities\" rel=\"noopener noreferrer\" target=\"_blank\">Covenant of Mayors — повідомлення про відбір 12 міст від 04.12.2024</a>.</p>",
+        "preserved_hrefs": [
+          "https://www.sun4ukraine.eu/flagship",
+          "https://eu-mayors.ec.europa.eu/en/news/twelve-ukrainian-cities-join-sun4ukraine-initiative-eu-climate-neutral-and-smart-cities"
+        ],
+        "preserved_claims": "2024-12-04 select 12 flagship cities; no achieved outcomes",
+        "reason": "Owner-authorized visible source-link label normalization ONLY. Existing publisher targets and locators unchanged; no Editorial master changes."
+      },
+      {
+        "index": 49,
+        "before_html": "<p class=\"source-line\" data-source-index=\"49\">Джерело, сторінка 9: https://vb.nweurope.eu/media/19788/can_practicecube2023_final.pdf#page=9 . <a href=\"https://vb.nweurope.eu/media/19788/can_practicecube2023_final.pdf#page=9\" rel=\"noopener noreferrer\" target=\"_blank\">Відкрити джерело</a></p>",
+        "after_html": "<p class=\"source-line\" data-source-index=\"49\">Джерело, сторінка 9: <a href=\"https://vb.nweurope.eu/media/19788/can_practicecube2023_final.pdf#page=9\" rel=\"noopener noreferrer\" target=\"_blank\">Climate Active Neighbourhoods — Practice Cube (2023), Брест, с. 9</a>.</p>",
+        "preserved_hrefs": [
+          "https://vb.nweurope.eu/media/19788/can_practicecube2023_final.pdf#page=9"
+        ],
+        "preserved_claims": "historical Practice Cube Brest PDF printed page 9; no current outcome claim",
+        "reason": "Owner-authorized visible source-link label normalization ONLY. Existing publisher targets and locators unchanged; no Editorial master changes."
+      }
+    ]
+  },
+  "v1.0.8_source_link_cleanup_control": {
+    "authorization": "UCAN-L20-v1.0.7-QA-ACCEPTED-v1.0.8-RAWURL-ONLY-20261027",
+    "predecessor_drive_id": "1uERpxu6qMinvprY4hjNRXTyLktVZ3tp5",
+    "predecessor_sha256": "004bfa7cf4e1aa83d9878957ac1972edac49284fe3ae57fc7f8b2cac6c179b2d",
+    "changed_source_indices": [
+      33,
+      49
+    ],
+    "untouched_indexed_fragments": 91,
+    "source_hrefs_identical": true,
+    "four_unique_source_url_targets": 4,
+    "seven_source_anchor_occurrences": 7,
+    "css_and_js_byte_identical": true,
+    "owner_image": "PENDING",
+    "ai_mentor": "INTENTIONALLY_DEFERRED",
+    "mapping": [
+      {
+        "index": 33,
+        "before_html": "<p class=\"source-line\" data-source-index=\"33\">Джерела: SUN4Ukraine — Flagship Municipalities: https://www.sun4ukraine.eu/flagship ; повідомлення Covenant of Mayors про відбір 12 міст (04.12.2024): https://eu-mayors.ec.europa.eu/en/news/twelve-ukrainian-cities-join-sun4ukraine-initiative-eu-climate-neutral-and-smart-cities . <a href=\"https://www.sun4ukraine.eu/flagship\" rel=\"noopener noreferrer\" target=\"_blank\">Відкрити джерело</a> <a href=\"https://eu-mayors.ec.europa.eu/en/news/twelve-ukrainian-cities-join-sun4ukraine-initiative-eu-climate-neutral-and-smart-cities\" rel=\"noopener noreferrer\" target=\"_blank\">Відкрити джерело</a></p>",
+        "after_html": "<p class=\"source-line\" data-source-index=\"33\">Джерела: <a href=\"https://www.sun4ukraine.eu/flagship\" rel=\"noopener noreferrer\" target=\"_blank\">SUN4Ukraine — Flagship Municipalities</a>; <a href=\"https://eu-mayors.ec.europa.eu/en/news/twelve-ukrainian-cities-join-sun4ukraine-initiative-eu-climate-neutral-and-smart-cities\" rel=\"noopener noreferrer\" target=\"_blank\">Covenant of Mayors — повідомлення про відбір 12 міст від 04.12.2024</a>.</p>",
+        "preserved_hrefs": [
+          "https://www.sun4ukraine.eu/flagship",
+          "https://eu-mayors.ec.europa.eu/en/news/twelve-ukrainian-cities-join-sun4ukraine-initiative-eu-climate-neutral-and-smart-cities"
+        ],
+        "preserved_claims": "2024-12-04 select 12 flagship cities; no achieved outcomes",
+        "reason": "Owner-authorized visible source-link label normalization ONLY. Existing publisher targets and locators unchanged; no Editorial master changes."
+      },
+      {
+        "index": 49,
+        "before_html": "<p class=\"source-line\" data-source-index=\"49\">Джерело, сторінка 9: https://vb.nweurope.eu/media/19788/can_practicecube2023_final.pdf#page=9 . <a href=\"https://vb.nweurope.eu/media/19788/can_practicecube2023_final.pdf#page=9\" rel=\"noopener noreferrer\" target=\"_blank\">Відкрити джерело</a></p>",
+        "after_html": "<p class=\"source-line\" data-source-index=\"49\">Джерело, сторінка 9: <a href=\"https://vb.nweurope.eu/media/19788/can_practicecube2023_final.pdf#page=9\" rel=\"noopener noreferrer\" target=\"_blank\">Climate Active Neighbourhoods — Practice Cube (2023), Брест, с. 9</a>.</p>",
+        "preserved_hrefs": [
+          "https://vb.nweurope.eu/media/19788/can_practicecube2023_final.pdf#page=9"
+        ],
+        "preserved_claims": "historical Practice Cube Brest PDF printed page 9; no current outcome claim",
+        "reason": "Owner-authorized visible source-link label normalization ONLY. Existing publisher targets and locators unchanged; no Editorial master changes."
+      }
+    ],
+    "qa_environment": "STATIC_VERIFIED; isolated browser smoke separate; no real-origin reload claim"
+  },
+  "v1.0.9_final_owner_ux_control": {
+    "authorization": "2026-10-28 owner-confirmed two-issue bounded UI correction; NO RELEASE ACCEPTANCE",
+    "source": {
+      "drive_id": "1HbVlG-81X5UnJq5jtKiO3XNBwpv0U2jA",
+      "size_bytes": 206469,
+      "sha256": "d13d5ed3872e3fb21c18259ac0ea53ceaba170508e7ad88ab96caf86c0040ae5"
+    },
+    "change_A": {
+      "where": "#page-interests [data-source-index=\"45\"]",
+      "change": "Wrap existing exact JRC SECAP title in approved PDF hyperlink; no content text changes",
+      "href": "https://publications.jrc.ec.europa.eu/repository/bitstream/JRC112986/jrc112986_kj-na-29412-en-n.pdf",
+      "original_publisher_source_anchors": 7,
+      "successor_publisher_source_anchors": 8,
+      "unique_publisher_urls": 4
+    },
+    "change_B": {
+      "where": "#page-note .portfolio-composer .actions",
+      "change": "Remove note save/copy/print buttons and orphan listeners; PDF becomes sole primary export button; preserve note input autosave, PDF, AI review, global reset and print-note copy structure",
+      "removed_ids": [
+        "save-note",
+        "copy-note",
+        "print-note"
+      ],
+      "sole_export_id": "download-pdf"
+    },
+    "learner_source_indexed_text_values": "93/93 identical",
+    "semantic_pages": 12,
+    "frozen_assessment": "five MCQs 5/5 C-A-D-B-A unlimited retries unchanged",
+    "css": "byte-identical to v1.0.8",
+    "real_origin": "NOT TESTED",
+    "release_dependencies": "IQ20-02 OPEN; IQ20-03 OPEN; IQ20-04 OPEN; owner browser acceptance PENDING"
+  }
+}
