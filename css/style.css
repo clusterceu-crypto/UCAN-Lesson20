@@ -90,3 +90,9 @@ a.next-lesson:focus-visible{outline:3px solid #137f87;outline-offset:3px;}
 .ai-note-review a:focus-visible,.ai-note-review button:focus-visible,.ai-note-review textarea:focus-visible{outline:3px solid #116e77;outline-offset:3px;}
 @media(max-width:420px){.ai-note-actions{flex-direction:column}.ai-note-actions>.button{width:100%;justify-content:center;}}
 @media print{.ai-note-review{display:none!important;}}
+
+/* Link to the previous UCAN lesson. */
+.app-header .header-inner .ucan-previous-lesson{display:inline-flex;align-items:center;justify-content:center;gap:.35em;flex:0 0 auto;min-height:42px;box-sizing:border-box;padding:6px 10px;border:1px solid currentColor;border-radius:9px;text-decoration:none;font-size:.8rem;font-weight:700;line-height:1.2;color:#fff}
+.app-header .header-inner .ucan-previous-lesson:hover{text-decoration:underline}
+.app-header .header-inner .ucan-previous-lesson:focus-visible{outline:3px solid #e7a71f;outline-offset:2px}
+@media(max-width:680px){.app-header .header-inner{flex-wrap:wrap;column-gap:8px;row-gap:6px}}
